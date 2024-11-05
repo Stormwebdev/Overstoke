@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    background: RED;
+    
+    margin: 30px 100px;
+}
+
+.box{
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-top: -73px;
+    background-color: rgba(235, 217, 217, 0.349);
+    box-shadow: 0px 2px 4px 0px;
+    border: none;
+    
+}
+
+input{
+    width: 520px;
+    height: 35px;
+    border-radius: 10px;
+    
+    border: 2px solid black;
+    outline: none;
+    
+    border: none;
+    background-color: rgba(238, 228, 228, 0.11);
+    
+}
+input, placeholder{
+    font-size: 18px;
+    padding: 21px 30px;
+}
+
+.saerch{
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.849);
+    margin-left: 930px;
+    margin-top: -42px;
+    background-color: rgba(255, 0, 0, 0.747);
+}
+
+.saerch i{
+    color: white;
+}
+
+.saerch:hover{
+    scale: 1.1;
+}
+
+.search, i{
+    font-size: 30px;
+    padding: 5px 18px;
+
+    
+}
+
+.navblock{
+    width: 30px;
+    height: 20px;
+    margin-left: 1320px;
+    margin-top: -40px;
+    font-size: 10px;
+    display: flex;
+   
+}
+
+.i1{
+    
+   
+    
+    
+}
+
+
+.i1:hover{
+    color: rgba(255, 0, 0, 0.781);
+
+}
+.i2{
+    
+}
+
+
+.i2:hover{
+    color: rgba(255, 0, 0, 0.781);
+}
+
+.i3{
+   
+}
+
+
+.i3:hover{
+    color: rgba(255, 0, 0, 0.781);
+}
+
+.ul{
+    display: flex;
+    margin-left: 80px;
+    
+    list-style: none;
+    gap: 70px;
+    
+}
+
+.bannerimg{
+    width: 1300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+
+
+.sin{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-left: 180px;
+    margin-top: -480px;
+    color: #fff;
+}
+.nis{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    margin-left: 160px;
+    
+    color: #fff;
+}
+.ooo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-left: 150px;
+    
+    color: #fff;
+}
+
+.button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-left: 200px;
+    cursor: pointer;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: red;
+    cursor: pointer;
+    
+    
+}
+
+button:active{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.ni{
+    font-size: 90px;
+    color: white;
+    margin-left: 120px;
+    margin-top: -30px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background: rgba(20, 20, 20, 10%);
+    
+}
+
+
+
+
+
+footer {
+    background: #000;
+    
+    padding: 40px 0;
+    width: 1499px;
+    height: 400px;
+    margin-left: 0px;    
+    margin-top: 150px;
+    
+}
+
+
+
+.footer11 {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    line-height: 1.8;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul li i {
+    margin-right: 10px;
+}
+
+.footerpast {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+.footerpast p {
+    margin: 0;
+}
+
+
+.footer-section.social ul li {
+    
+    margin-right: 15px;
+}
+
+.footer-section.social ul li a {
+    
+    font-size: 15px;
+}
+
+
+
+.iconfooter{
+    color: #fff;
+    font-size: 5px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.iconfooter i:hover{
+    scale: 1.1;
+    cursor: pointer;
+    
+}
+
+
